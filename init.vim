@@ -132,8 +132,11 @@ set fillchars=
 " set fillchars+=vert:┃
 set fillchars+=vert:╽
 "set fillchars+=vert:║
-set fillchars+=foldopen:⎛ 
-set fillchars+=foldsep:╽
+"set fillchars+=foldopen:⎛ 
+"set fillchars+=foldopen:╒
+set fillchars+=foldopen:╭
+set fillchars+=foldsep:│
+set fillchars+=foldclose:◆
 set fillchars+=eob:\ 
 " set fillchars+=vert:\|
 
