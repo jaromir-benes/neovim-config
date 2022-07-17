@@ -31,10 +31,10 @@ hi StatusLineNC ctermfg=0 ctermbg=3 cterm=none
 hi ColorColumn ctermbg=0 ctermfg=none
 hi MatchParen cterm=underline,bold ctermfg=9 ctermbg=none 
 
-hi DiffAdd ctermbg=0 ctermfg=15 cterm=inverse,bold
-hi DiffDelete ctermbg=0 ctermfg=9 cterm=inverse,bold
-hi DiffChange ctermbg=0 ctermfg=5 cterm=inverse,bold
-hi DiffText ctermbg=0 ctermfg=8 cterm=inverse,bold
+hi DiffAdd ctermbg=none ctermfg=15 cterm=none
+hi DiffDelete ctermbg=none ctermfg=9 cterm=none
+hi DiffChange ctermbg=none ctermfg=5 cterm=none
+hi DiffText ctermbg=none ctermfg=8 cterm=none
 
 hi Pmenu ctermfg=1 ctermbg=7 
 hi PmenuSel ctermfg=0 ctermbg=6 cterm=bold

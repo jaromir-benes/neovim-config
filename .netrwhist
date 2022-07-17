@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/myself/Documents/myself/.vim'
+let g:netrw_dirhist_2='/Users/myself'
+let g:netrw_dirhist_3='/Users/myself/Documents/myself'
+let g:netrw_dirhist_4='/Users/myself/Documents/myself/.vim'
+let g:netrw_dirhist_5='/Users/myself/Documents/myself'

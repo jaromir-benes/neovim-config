@@ -54,7 +54,7 @@ autocmd FileType iris setlocal fo-=t|setlocal fo+=l
 
 let g:html_font = "sf mono"
 
-vmap /% :s/^\( *\)/\1% /g<CR>:noh<CR>
+vmap /% :s/^/% /g<CR>:noh<CR>
 vmap ?% :s/^\( *\)% \?/\1/g<CR>:noh<CR>
 
 " Enclose a visual selection in %{___%}

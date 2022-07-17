@@ -21,7 +21,7 @@ syn match gitdiffPlus "^+.*" contained containedin=gitdiffFile
 syn match gitdiffPlus "+\d\+,\d\+\ze @" contained containedin=gitdiffFile
 syn match gitdiffPlus "^\[-.*-\]" contained containedin=gitdiffFile
 
-hi gitdiffHeader ctermfg=6 ctermbg=none cterm=bold
+hi link gitdiffHeader Heading
 hi link gitdiffHighlight String
 hi link gitdiffMinus DiffDelete
 hi link gitdiffPlus DiffAdd
